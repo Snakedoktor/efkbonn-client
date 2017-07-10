@@ -7,10 +7,10 @@
 
 ## TODOS:
 - [ ] README Description
-- [ ] Grundstruktur aufgbauen
-- [ ] Editorconfig einfügen
+- [X] Grundstruktur aufbauen
+- [X] Editorconfig einfügen
 - [ ] Dockerfile (falls möglich)
-- [ ] Maven Support
+- [X] Maven Support
 - [ ] Travis CI Support
 - [ ] JavaFX / QT Oberfläche
 - [ ] I18N
