@@ -24,9 +24,8 @@ hs_err_pid*
 # IDE metafiles
 .idea
 .eclipse
+*.iml
 
-# Emacs
+# Others...
 *~
-
-# Sqlite
 *.sqlite
