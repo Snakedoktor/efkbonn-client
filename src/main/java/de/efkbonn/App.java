@@ -6,7 +6,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-
+import javafx.fxml.FXMLLoader;
 /**
  * Hello world!
  *
@@ -17,17 +17,14 @@ public class App extends Application {
         launch(args);
     }
 
-    @Override
+
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("EFKBonn Login");
 
-        GridPane grid = new GridPane();
-        grid.setAlignment(Pos.CENTER);
-        grid.setHgap(10);
-        grid.setVgap(10);
-        grid.setPadding(new Insets(25, 25, 25, 25));
 
-        Scene scene = new Scene(grid, 300, 275);
+        GridPane grid =(GridPane) FXMLLoader.load(getClass().getResource("EFK_Login.fxml"));
+
+
+        Scene scene = new Scene(grid);
 
         primaryStage.setScene(scene);
 
